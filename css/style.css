@@ -870,6 +870,21 @@ hr {
     .footer {
         padding: 10px;
     }
+
+    .texto p {
+        line-height: 1.8; /* Aumentar o espaçamento entre linhas */
+        margin-bottom: 20px; /* Garantir espaçamento entre parágrafos */
+    }
+
+    .section-list li {
+        line-height: 1.6; /* Ajustar espaçamento entre itens da lista */
+        margin-bottom: 15px; /* Garantir espaçamento entre itens */
+    }
+
+    .skills-list ul li {
+        line-height: 1.6; /* Ajustar espaçamento entre itens de habilidades */
+        margin-bottom: 15px; /* Garantir espaçamento entre itens */
+    }
 }
 
 @media screen and (max-width: 480px) {
