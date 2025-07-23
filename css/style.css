@@ -35,7 +35,7 @@
 body {
     margin: 0;
     background: #fcf8f2;
-    
+    font-family: 'Poppins', sans-serif;
     color: #222;
 }
 
@@ -162,13 +162,7 @@ body {
     min-width: 350px;
 }
 
-.hello-title {
-    font-family: 'Klore', serif;
-    font-size: 3.5rem;
-    color: #e94f37;
-    margin-bottom: 18px;
-    letter-spacing: 2px;
-}
+
 
 .intro-text {
     font-size: 1.15rem;
@@ -475,7 +469,7 @@ nav {
 }
 
 .texto p {
-    font-family: 'typewriter', serif;
+    
     font-size: 1.1rem;
     line-height: 1.6;
     color: #000000;
@@ -872,18 +866,24 @@ hr {
     }
 
     .texto p {
-        line-height: 1.8; /* Aumentar o espaçamento entre linhas */
-        margin-bottom: 20px; /* Garantir espaçamento entre parágrafos */
+        line-height: 1.8;
+        /* Aumentar o espaçamento entre linhas */
+        margin-bottom: 20px;
+        /* Garantir espaçamento entre parágrafos */
     }
 
     .section-list li {
-        line-height: 1.6; /* Ajustar espaçamento entre itens da lista */
-        margin-bottom: 15px; /* Garantir espaçamento entre itens */
+        line-height: 1.6;
+        /* Ajustar espaçamento entre itens da lista */
+        margin-bottom: 15px;
+        /* Garantir espaçamento entre itens */
     }
 
     .skills-list ul li {
-        line-height: 1.6; /* Ajustar espaçamento entre itens de habilidades */
-        margin-bottom: 15px; /* Garantir espaçamento entre itens */
+        line-height: 1.6;
+        /* Ajustar espaçamento entre itens de habilidades */
+        margin-bottom: 15px;
+        /* Garantir espaçamento entre itens */
     }
 }
 
@@ -970,5 +970,14 @@ hr {
 
     .contate img {
         max-width: 150px;
+    }
+}
+
+@media (max-width: 900px) {
+    .center-icons {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-bottom: 16px;
     }
 }
